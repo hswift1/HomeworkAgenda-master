@@ -12,17 +12,16 @@ class HomeworkTableViewController: UITableViewController {
     
     var dayDue: [DayDue] {
         
-        let firstThursdayClass = Homework(name: "English", description: "read to page 36")
+        let firstTuesdayClass = Homework(name: "English", description: "read to pages 37-48")
+        let TuesdayClasses = DayDue(name: "Tuesday", homework: [firstTuesdayClass])
+        
+        let firstThursdayClass = Homework(name: "History", description: "check veracross + fill out part 3 of chart")
         let ThursdayClasses = DayDue(name: "Thursday", homework: [firstThursdayClass])
         
-        let firstFridayClass = Homework(name: "History", description: "outline and bibliography due for in-class essay")
-        let secondFridayClass = Homework(name: "Precalc", description: "finish graphing worksheet #2")
-        let thirdFridayClass = Homework(name: "French", description: "final draft of Stephane report")
-        let FridayClasses = DayDue(name: "Friday", homework: [firstFridayClass, secondFridayClass, thirdFridayClass])
+        let firstFriadyClass = Homework(name: "French", description: "revue de presse")
+        let FridayClasses = DayDue(name: "Friday", homework: [firstFriadyClass])
         
-        return [ThursdayClasses, FridayClasses]
-        
-        
+        return [TuesdayClasses, ThursdayClasses, FridayClasses]
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

@@ -17,6 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="separatorColor" red="0.83903656940000004" green="0.97140678970000005" blue="0.96615870429999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="homeworkCell" textLabel="DHd-77-TTU" detailTextLabel="Dmp-5t-2RI" style="IBUITableViewCellStyleSubtitle" id="Bqa-a3-kbo" userLabel="TableViewCell">
                                 <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
@@ -41,6 +42,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -48,7 +50,7 @@
                             <outlet property="delegate" destination="q1N-hy-ser" id="lng-ZQ-N96"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Homework Agenda" id="u8u-37-pXz"/>
+                    <navigationItem key="navigationItem" title="Maia's Homework Agenda" id="u8u-37-pXz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sBi-Io-gST" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
